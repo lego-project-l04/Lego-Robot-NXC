@@ -21,23 +21,23 @@ task main()
  SetSensorUltrasonic(IN_4);
  Wait(5000);
 
- while (true) //ser till så att allt körs om och om igen
+ while (true) //ser till sÃ¥ att allt kÃ¶rs om och om igen
  {
 
        bool go;
        go = true;
        while (go){
-             while(StayOn(Sensor(IN_3))){   //Kollar så att roboten inte åker utanför bordet.
+             while(StayOn(Sensor(IN_3))){   //Kollar sÃ¥ att roboten inte Ã¥ker utanfÃ¶r bordet.
              OnFwd(OUT_A, 150);
              OnRev(OUT_C, 150);
-             while(SensorUS(IN_4) < ENEMY){ //Kollarom en motståndare är rakt fram
+             while(SensorUS(IN_4) < ENEMY){ //Kollar om en motstÃ¥ndare Ã¤r rakt fram
                 OnFwd(OUT_AC, 75);
                 PlaySound(SOUND_DOUBLE_BEEP);
                 /*if(SensorUS(IN_4) < (ENEMY/2)){
                     OnFwd(OUT_AC, 150);
                      PlaySound(SOUND_FAST_UP);
                 } */
-                if (StayOn(Sensor(IN_3)) == false) { //Ifall sensorn känner av det svarta
+                if (StayOn(Sensor(IN_3)) == false) { //Ifall sensorn kÃ¤nner av det svarta
                   OnRev(OUT_AC, 75);
                   Wait(1000);
 
