@@ -4,51 +4,54 @@
 // Sätt tröskelvärde för hur nära motståndaren skall vara för att bli attackerad.
 #define ENEMY 100
 
-inline bool StayOn(unsigned int threshold){
-       if(threshold > 40){
-        return true;
-       }
-       else {
-        return false;
-       }
-}
+inline bool StayOn( unsigned int threshold ) {
+
+  if( threshold > 40 ){
+    return true;
+  } // end if
+
+  else {
+    return false;
+  } // end else
+} // end inline
 
 
-task main()
-{
+task main() {
 
- SetSensorLight(IN_3);
- SetSensorUltrasonic(IN_4);
- Wait(5000);
+  SetSensorLight( IN_3 );
+  SetSensorUltrasonic( IN_4 );
+  Wait( 5000 );
 
- while (true) //ser till så att allt körs om och om igen
- {
+  while ( true ) { //ser till så att allt körs om och om igen
 
-       bool go;
-       go = true;
-       while (go){
-             while(StayOn(Sensor(IN_3))){   //Kollar så att roboten inte åker utanför bordet.
-             OnFwd(OUT_A, 150);
-             OnRev(OUT_C, 150);
-             while(SensorUS(IN_4) < ENEMY){ //Kollar om en motståndare är rakt fram
-                OnFwd(OUT_AC, 75);
-                PlaySound(SOUND_DOUBLE_BEEP);
-                /*if(SensorUS(IN_4) < (ENEMY/2)){
-                    OnFwd(OUT_AC, 150);
-                     PlaySound(SOUND_FAST_UP);
-                } */
-                if (StayOn(Sensor(IN_3)) == false) { //Ifall sensorn känner av det svarta
-                  OnRev(OUT_AC, 75);
-                  Wait(1000);
+    bool go;
+    go = true;
 
-                  }
-             }
+    while ( go ) {
 
+      while( StayOn( Sensor( IN_3 ) ) ) { // Kollar så att roboten inte åker utanför bordet.
+        OnFwd( OUT_A, 150 );
+        OnRev( OUT_C, 150 );
 
-            go = false;
+        while( SensorUS( IN_4 ) < ENEMY ) { // Kollar om en motståndare är rakt fram
+            OnFwd(OUT_AC, 75);
 
+            PlaySound(SOUND_DOUBLE_BEEP);
 
-       }
-       }
- }
-}
+            /*if(SensorUS(IN_4) < (ENEMY/2)){
+                OnFwd(OUT_AC, 150);
+                 PlaySound(SOUND_FAST_UP);
+            }*/
+
+            if ( StayOn( Sensor( IN_3 ) ) == false ) { // Ifall sensorn känner av det svarta
+              OnRev( OUT_AC, 75 );
+              Wait( 1000 );
+            }
+        } // end while
+
+        go = false;
+
+      } // end while
+    } // end while
+  } // end while
+} // end main()
