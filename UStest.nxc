@@ -1,4 +1,7 @@
+// Deklarera variabler
+// Sätt tröskelvärde för reflekterat ljus.
 #define THRESHOLD 40
+// Sätt tröskelvärde för hur nära motståndaren skall vara för att bli attackerad.
 #define ENEMY 100
 
 inline bool StayOn(unsigned int threshold){
