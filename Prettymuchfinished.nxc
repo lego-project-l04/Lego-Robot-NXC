@@ -1,0 +1,72 @@
+#define THRESHOLD 40
+#define ENEMY 100
+
+inline bool StayOn(unsigned int threshold){
+       if(threshold > 40){
+        return true;
+       }
+       else {
+        return false;
+       }
+}
+
+
+task main()
+{
+
+ SetSensorLight(IN_3);
+ SetSensorUltrasonic(IN_4);
+ int counter = 1;
+ while(counter < 2){
+  OnFwd(OUT_B, 100);
+  Wait(500);
+  Off(OUT_B);
+  Wait(500);
+  counter++;
+  }
+  while(counter < 5){
+       OnFwd(OUT_B, 100);
+       Wait(300);
+       Off(OUT_B);
+       Wait(300);
+       counter++;
+  }
+  while(counter < 12){
+       OnFwd(OUT_B, 100);
+       Wait(100);
+       Off(OUT_B);
+       Wait(100);
+       counter++;
+  }
+
+ while (true) //ser till så att allt körs om och om igen
+ {
+
+       bool go;
+       go = true;
+       while (go){
+             while(StayOn(Sensor(IN_3))){   //Kollar så att roboten inte åker utanför bordet.
+             OnFwd(OUT_A, 150);
+             OnRev(OUT_C, 150);
+             while(SensorUS(IN_4) < ENEMY){ //Kollarom en motståndare är rakt fram
+                OnFwd(OUT_AC, 100);
+
+                /*if(SensorUS(IN_4) < (ENEMY/2)){
+                    OnFwd(OUT_AC, 150);
+                     PlaySound(SOUND_FAST_UP);
+                } */
+                if (StayOn(Sensor(IN_3)) == false) { //Ifall sensorn känner av det svarta
+                  OnRev(OUT_AC, 100);
+                  Wait(1000);
+
+                  }
+             }
+
+
+            go = false;
+
+
+       }
+       }
+ }
+}
