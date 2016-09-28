@@ -1,0 +1,68 @@
+inline bool StayOn(unsigned int threshold){
+       if(threshold > 40){
+         return true;
+       }
+       else {
+        return false;
+       }
+}
+inline void EnemyInSight(unsigned int enemy){
+       if(enemy < 70){
+        OnFwd(OUT_AC, 100);
+        Wait(10);
+       }
+       else{
+         OnFwd(OUT_A,80);
+         OnRev(OUT_C,80);
+         Wait(10);
+         }
+}
+ inline void lamp(){
+         int counter = 1;
+ while(counter < 2){
+  OnFwd(OUT_B, 100);
+  Wait(500);
+  Off(OUT_B);
+  Wait(500);
+  counter++;
+  }
+  while(counter < 5){
+       OnFwd(OUT_B, 100);
+       Wait(300);
+       Off(OUT_B);
+       Wait(300);
+       counter++;
+  }
+  while(counter < 12){
+       OnFwd(OUT_B, 100);
+       Wait(100);
+       Off(OUT_B);
+       Wait(100);
+       counter++;
+  }
+ }
+
+
+task main()
+{
+
+ SetSensorLight(IN_3);
+ SetSensorUltrasonic(IN_4);
+
+ lamp();
+ while (true) //ser till så att allt körs om och om igen
+ {
+
+            while(StayOn(Sensor(IN_3))){
+
+             EnemyInSight(SensorUS(IN_4));
+             }
+
+             OnRev(OUT_AC, 80);
+             Wait(500);
+
+
+
+
+  }
+}
