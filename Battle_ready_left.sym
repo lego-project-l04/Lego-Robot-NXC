@@ -1,0 +1,491 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0SetSensorLowspeed_inline_SetSensorUltrasonic	6	1	0	4	2
+1	__DU0SetSensorLight_inline_main	5	1	4	4	5
+2	__D0StayOn_inline_main	6	1	8	4	4
+3	__DU0SetSensorLowspeed_inline_SetSensorUltrasonic	5	1	12	4	5
+4	__D0main	6	1	16	4	10
+5	__RLSBmutex3	9	0	20	4	2
+6	__D0SetSensorLight_inline_main	6	1	24	4	2
+7	__DU0main	5	1	28	4	2
+8	__DU0StayOn_inline_main	5	1	32	4	3
+9	__Wait_7qG2_ms_7qG2_000_inline_lamp_inline_main	5	1	36	4	12
+10	__signed_stack_001lamp_inline_main	6	1	40	4	6
+11	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	44	4	2
+12	__Wait_7qG2_ms_7qG2_000_inline_EnemyInSight_inline_main	5	1	48	4	4
+13	__D0lamp_inline_main	6	1	52	4	18
+14	__D0EnemyInSight_inline_main	6	1	56	4	10
+15	__unsigned_stack_001EnemyInSight_inline_main	5	1	60	4	2
+16	__unsigned_stack_001StayOn_inline_main	5	1	64	4	2
+17	__CLSWMutex3	9	0	68	4	2
+18	__CLSCSMutex3	9	0	72	4	2
+19	__CLSRMutex3	9	0	76	4	2
+20	__lamp_7qG2_counter_7qG2_000_inline_main	4	1	80	2	10
+21	__StayOn_7qG2_threshold_7qG2_000_inline_main	3	1	82	2	2
+22	__SetSensorUltrasonic_7qG2_port_7qG2_000_inline_main	1	1	84	1	2
+23	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	85	1	2
+24	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	86	1	2
+25	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	87	1	4
+26	____initialize_global_data_return	1	1	88	1	3
+27	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	89	1	2
+28	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	90	1	2
+29	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	91	1	2
+30	__constVal32	2	0	92	1	30
+31	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	93	1	2
+32	__constVal96	2	0	94	1	10
+33	__OnRev_Tmp	2	1	95	1	4
+34	__constVal63	2	0	96	1	10
+35	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	97	1	2
+36	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main	1	1	98	1	4
+37	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	99	1	2
+38	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	100	1	2
+39	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main	1	1	101	1	2
+40	__constVal0	2	1	102	1	35
+41	__RLSBIterations3	1	1	103	1	4
+42	__RLSBytesCount3	1	1	104	1	7
+43	__constVal15	2	0	105	1	1
+44	__PFTmp	1	1	106	1	1
+45	____ReadLSBytes3_return	1	1	107	1	3
+46	__constVal2	2	0	108	1	2
+47	__RLSBResult3	2	1	109	1	7
+48	__LSWriteOptionsVar	1	1	110	1	2
+49	__ResetSensorTmp	1	1	111	1	2
+50	____ResetSensorSubroutine_return	1	1	112	1	4
+51	__ResetSensorPort	1	1	113	1	4
+52	__constVal1	2	0	114	1	14
+53	__constVal3	2	0	115	1	12
+54	__CLSWArgs3	8	0	4	12	5
+55	__CLSWArgs3.Result	2	1	116	1	5
+56	__CLSWArgs3.Port	1	1	117	1	5
+57	__CLSWArgs3.Buffer	7	0	118	4	5
+58	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+59	__CLSWArgs3.ReturnLen	1	1	120	1	5
+60	__CLSRArgs3	8	0	4	12	5
+61	__CLSRArgs3.Result	2	1	124	1	5
+62	__CLSRArgs3.Port	1	1	125	1	5
+63	__CLSRArgs3.Buffer	7	0	126	4	5
+64	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+65	__CLSRArgs3.BufferLen	1	1	128	1	5
+66	__CLSCSArgs3	8	0	3	4	4
+67	__CLSCSArgs3.Result	2	1	132	1	4
+68	__CLSCSArgs3.Port	1	1	133	1	4
+69	__CLSCSArgs3.BytesReady	1	1	134	1	4
+70	__RLSBbufLSWrite1	7	0	136	4	1
+71	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+72	__OUT_AC	7	0	138	4	2
+73	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+74	__LSWriteOptions	7	0	140	4	1
+75	__LSWriteOptions.__LSWriteOptions_type	1	0	0	1	0
+76	__RLSReadBuf3	7	0	142	4	8
+77	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
+78	__RLSLastGoodRead3	7	0	144	4	2
+79	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	48	0	#line 48 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	49	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	48	2	#line 48 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	48	2	#line 48 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	49	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
+0	48	5	#line 48 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	48	5	#line 48 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	49	5		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	4494	7	#line 4494 "NXCDefs.h"
+0	4495	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4494	9	#line 4494 "NXCDefs.h"
+0	4494	9	#line 4494 "NXCDefs.h"
+0	4495	9		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	4494	11	#line 4494 "NXCDefs.h"
+0	4495	11		tst 5, __D0SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4494	14	#line 4494 "NXCDefs.h"
+0	4495	14		brtst 4, __001__ASM_Label_4, __D0SetSensorLight_inline_main
+0	4494	17	#line 4494 "NXCDefs.h"
+0	4495	17		set __DU0SetSensorLight_inline_main, 5
+0	4494	20	#line 4494 "NXCDefs.h"
+0	4494	20	#line 4494 "NXCDefs.h"
+0	4495	20		jmp __001__ASM_Label_5
+0	4494	22	#line 4494 "NXCDefs.h"
+0	4495	22		set __DU0SetSensorLight_inline_main, 6
+0	4494	25	#line 4494 "NXCDefs.h"
+0	4494	25	#line 4494 "NXCDefs.h"
+0	4495	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4428	27	#line 4428 "NXCDefs.h"
+0	4429	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	4428	31	#line 4428 "NXCDefs.h"
+0	4494	31	#line 4494 "NXCDefs.h"
+0	4495	31	#line 4495 "NXCDefs.h"
+0	4496	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4495	33	#line 4495 "NXCDefs.h"
+0	4495	33	#line 4495 "NXCDefs.h"
+0	4496	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	4495	36	#line 4495 "NXCDefs.h"
+0	4441	36	#line 4441 "NXCDefs.h"
+0	4442	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	4441	40	#line 4441 "NXCDefs.h"
+0	4495	40	#line 4495 "NXCDefs.h"
+0	4496	40	#line 4496 "NXCDefs.h"
+0	4496	40	#line 4496 "NXCDefs.h"
+0	4459	40	#line 4459 "NXCDefs.h"
+0	4460	40	#pragma macro 4
+0	4460	40		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4460	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	4095	44	#line 4095 "NXCDefs.h"
+0	4459	44	#line 4459 "NXCDefs.h"
+0	4496	44	#line 4496 "NXCDefs.h"
+0	48	44	#line 48 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	49	44	#line 49 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	50	44		set __SetSensorUltrasonic_7qG2_port_7qG2_000_inline_main, 3
+0	49	47	#line 49 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	4533	47	#line 4533 "NXCDefs.h"
+0	4534	47		mov __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main, __SetSensorUltrasonic_7qG2_port_7qG2_000_inline_main
+0	4533	49	#line 4533 "NXCDefs.h"
+0	4533	49	#line 4533 "NXCDefs.h"
+0	4534	49		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main, __constVal1
+0	4523	51	#line 4523 "NXCDefs.h"
+0	4524	51		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	4523	53	#line 4523 "NXCDefs.h"
+0	4523	53	#line 4523 "NXCDefs.h"
+0	4524	53		mov __DU0SetSensorLowspeed_inline_SetSensorUltrasonic, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	4523	55	#line 4523 "NXCDefs.h"
+0	4524	55		tst 5, __D0SetSensorLowspeed_inline_SetSensorUltrasonic, __DU0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	4523	58	#line 4523 "NXCDefs.h"
+0	4524	58		brtst 4, __001__001__ASM_Label_36, __D0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	4523	61	#line 4523 "NXCDefs.h"
+0	4524	61		set __DU0SetSensorLowspeed_inline_SetSensorUltrasonic, 11
+0	4523	64	#line 4523 "NXCDefs.h"
+0	4523	64	#line 4523 "NXCDefs.h"
+0	4524	64		jmp __001__001__ASM_Label_37
+0	4523	66	#line 4523 "NXCDefs.h"
+0	4524	66		set __DU0SetSensorLowspeed_inline_SetSensorUltrasonic, 10
+0	4523	69	#line 4523 "NXCDefs.h"
+0	4523	69	#line 4523 "NXCDefs.h"
+0	4524	69		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __DU0SetSensorLowspeed_inline_SetSensorUltrasonic
+0	4428	71	#line 4428 "NXCDefs.h"
+0	4429	71		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
+0	4428	75	#line 4428 "NXCDefs.h"
+0	4523	75	#line 4523 "NXCDefs.h"
+0	4524	75	#line 4524 "NXCDefs.h"
+0	4525	75		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	4524	77	#line 4524 "NXCDefs.h"
+0	4524	77	#line 4524 "NXCDefs.h"
+0	4525	77		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 0
+0	4524	80	#line 4524 "NXCDefs.h"
+0	4441	80	#line 4441 "NXCDefs.h"
+0	4442	80		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_SetSensorUltrasonic_inline_main, 1
+0	4441	84	#line 4441 "NXCDefs.h"
+0	4524	84	#line 4524 "NXCDefs.h"
+0	4525	84	#line 4525 "NXCDefs.h"
+0	4525	84	#line 4525 "NXCDefs.h"
+0	4459	84	#line 4459 "NXCDefs.h"
+0	4460	84	#pragma macro 4
+0	4460	84		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_SetSensorUltrasonic_inline_main
+0	4460	86		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	4196	88	#line 4196 "NXCDefs.h"
+0	4459	88	#line 4459 "NXCDefs.h"
+0	4525	88	#line 4525 "NXCDefs.h"
+0	4533	88	#line 4533 "NXCDefs.h"
+0	49	88	#line 49 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	20	88	#line 20 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	21	88		set __lamp_7qG2_counter_7qG2_000_inline_main, 1
+0	20	91	#line 20 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	21	91	#line 21 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	22	91		mov __signed_stack_001lamp_inline_main, __lamp_7qG2_counter_7qG2_000_inline_main
+0	21	93	#line 21 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	21	93	#line 21 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	22	93		set __D0lamp_inline_main, 2
+0	21	96	#line 21 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	22	96		cmp 0, __D0lamp_inline_main, __signed_stack_001lamp_inline_main, __D0lamp_inline_main
+0	22	100	#line 22 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	23	100		brtst 4, __001__ASM_Label_583, __D0lamp_inline_main
+0	22	103	#line 22 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	23	103		set __D0lamp_inline_main, 100
+0	22	106	#line 22 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	23	106	#pragma macro 7
+0	23	106		setout __constVal1, 2, __D0lamp_inline_main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4231	129	#line 4231 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	22	129	#line 22 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	23	129	#line 23 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	24	129		set __Wait_7qG2_ms_7qG2_000_inline_lamp_inline_main, 500
+0	23	132	#line 23 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	8869	132	#line 8869 "NXCDefs.h"
+0	8870	132		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_lamp_inline_main
+0	8869	135	#line 8869 "NXCDefs.h"
+0	23	135	#line 23 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	24	135	#line 24 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	25	135	#pragma macro 7
+0	25	135		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4242	158	#line 4242 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	24	158	#line 24 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	25	158	#line 25 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	26	158		set __Wait_7qG2_ms_7qG2_000_inline_lamp_inline_main, 500
+0	25	161	#line 25 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	8869	161	#line 8869 "NXCDefs.h"
+0	8870	161		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_lamp_inline_main
+0	8869	164	#line 8869 "NXCDefs.h"
+0	25	164	#line 25 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	26	164	#line 26 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	27	164		add __lamp_7qG2_counter_7qG2_000_inline_main, __lamp_7qG2_counter_7qG2_000_inline_main, __constVal1
+0	26	168	#line 26 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	28	168	#line 28 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	29	168		jmp __001__ASM_Label_582
+0	28	170	#line 28 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	28	170	#line 28 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	29	170		mov __signed_stack_001lamp_inline_main, __lamp_7qG2_counter_7qG2_000_inline_main
+0	28	172	#line 28 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	28	172	#line 28 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	29	172		set __D0lamp_inline_main, 5
+0	28	175	#line 28 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	29	175		cmp 0, __D0lamp_inline_main, __signed_stack_001lamp_inline_main, __D0lamp_inline_main
+0	29	179	#line 29 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	30	179		brtst 4, __001__ASM_Label_593, __D0lamp_inline_main
+0	29	182	#line 29 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	30	182		set __D0lamp_inline_main, 100
+0	29	185	#line 29 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	30	185	#pragma macro 7
+0	30	185		setout __constVal1, 2, __D0lamp_inline_main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4277	208	#line 4277 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	29	208	#line 29 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	30	208	#line 30 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	31	208		set __Wait_7qG2_ms_7qG2_000_inline_lamp_inline_main, 300
+0	30	211	#line 30 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	8869	211	#line 8869 "NXCDefs.h"
+0	8870	211		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_lamp_inline_main
+0	8869	214	#line 8869 "NXCDefs.h"
+0	30	214	#line 30 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	31	214	#line 31 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	32	214	#pragma macro 7
+0	32	214		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4288	237	#line 4288 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	31	237	#line 31 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	32	237	#line 32 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	33	237		set __Wait_7qG2_ms_7qG2_000_inline_lamp_inline_main, 300
+0	32	240	#line 32 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	8869	240	#line 8869 "NXCDefs.h"
+0	8870	240		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_lamp_inline_main
+0	8869	243	#line 8869 "NXCDefs.h"
+0	32	243	#line 32 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	33	243	#line 33 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	34	243		add __lamp_7qG2_counter_7qG2_000_inline_main, __lamp_7qG2_counter_7qG2_000_inline_main, __constVal1
+0	33	247	#line 33 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	35	247	#line 35 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	36	247		jmp __001__ASM_Label_592
+0	35	249	#line 35 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	35	249	#line 35 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	36	249		mov __signed_stack_001lamp_inline_main, __lamp_7qG2_counter_7qG2_000_inline_main
+0	35	251	#line 35 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	35	251	#line 35 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	36	251		set __D0lamp_inline_main, 12
+0	35	254	#line 35 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	36	254		cmp 0, __D0lamp_inline_main, __signed_stack_001lamp_inline_main, __D0lamp_inline_main
+0	36	258	#line 36 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	37	258		brtst 4, __001__ASM_Label_603, __D0lamp_inline_main
+0	36	261	#line 36 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	37	261		set __D0lamp_inline_main, 100
+0	36	264	#line 36 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	37	264	#pragma macro 7
+0	37	264		setout __constVal1, 2, __D0lamp_inline_main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4323	287	#line 4323 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	36	287	#line 36 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	37	287	#line 37 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	38	287		set __Wait_7qG2_ms_7qG2_000_inline_lamp_inline_main, 100
+0	37	290	#line 37 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	8869	290	#line 8869 "NXCDefs.h"
+0	8870	290		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_lamp_inline_main
+0	8869	293	#line 8869 "NXCDefs.h"
+0	37	293	#line 37 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	38	293	#line 38 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	39	293	#pragma macro 7
+0	39	293		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4334	316	#line 4334 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	38	316	#line 38 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	39	316	#line 39 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	40	316		set __Wait_7qG2_ms_7qG2_000_inline_lamp_inline_main, 100
+0	39	319	#line 39 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	8869	319	#line 8869 "NXCDefs.h"
+0	8870	319		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_lamp_inline_main
+0	8869	322	#line 8869 "NXCDefs.h"
+0	39	322	#line 39 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	40	322	#line 40 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	41	322		add __lamp_7qG2_counter_7qG2_000_inline_main, __lamp_7qG2_counter_7qG2_000_inline_main, __constVal1
+0	40	326	#line 40 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	45	326	#line 45 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	46	326		jmp __001__ASM_Label_602
+0	45	328	#line 45 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	51	328	#line 51 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	53	328	#line 53 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	54	328		set __D0main, 1
+0	55	331	#line 55 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	56	331		tst 5, __D0main, __D0main
+0	55	334	#line 55 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	56	334		brtst 4, __ASM_Label_617, __D0main
+0	55	337	#line 55 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	56	337		getin __StayOn_7qG2_threshold_7qG2_000_inline_main, __constVal2, 4
+0	55	341	#line 55 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	1	341	#line 1 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	2	341		mov __unsigned_stack_001StayOn_inline_main, __StayOn_7qG2_threshold_7qG2_000_inline_main
+0	1	343	#line 1 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	1	343	#line 1 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	2	343		set __D0StayOn_inline_main, 40
+0	1	346	#line 1 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	2	346		cmp 1, __D0StayOn_inline_main, __unsigned_stack_001StayOn_inline_main, __D0StayOn_inline_main
+0	2	350	#line 2 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	3	350		brtst 4, __001__ASM_Label_560, __D0StayOn_inline_main
+0	2	353	#line 2 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	3	353		set __DU0StayOn_inline_main, 1
+0	2	356	#line 2 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	2	356	#line 2 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	3	356		jmp __ASM_Label_main_inline_StayOn_001_end_lbl
+0	2	358	#line 2 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	5	358	#line 5 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	6	358		jmp __001__ASM_Label_563
+0	5	360	#line 5 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	6	360		set __DU0StayOn_inline_main, 0
+0	5	363	#line 5 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	5	363	#line 5 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	6	363		jmp __ASM_Label_main_inline_StayOn_001_end_lbl
+0	5	365	#line 5 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	8	365	#line 8 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	55	365	#line 55 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	56	365		mov __DU0main, __DU0StayOn_inline_main
+0	57	367	#line 57 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	58	367		tst 5, __D0main, __DU0main
+0	57	370	#line 57 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	58	370		brtst 4, __ASM_Label_621, __D0main
+0	57	373	#line 57 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	58	373	#pragma macro 26
+0	58	373		acquire __RLSBmutex3
+0	58	374		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	58	376		set __RLSBytesCount3, 1
+0	58	379		wait2 NA, __constVal15
+0	58	382		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	58	384		index __D0main, __RLSReadBuf3, 65535
+0	58	388		release __RLSBmutex3
+0	4422	389	#line 4422 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	57	389	#line 57 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	9	389	#line 9 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	10	389		mov __unsigned_stack_001EnemyInSight_inline_main, __D0main
+0	9	391	#line 9 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	9	391	#line 9 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	10	391		set __D0EnemyInSight_inline_main, 100
+0	9	394	#line 9 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	10	394		cmp 0, __D0EnemyInSight_inline_main, __unsigned_stack_001EnemyInSight_inline_main, __D0EnemyInSight_inline_main
+0	10	398	#line 10 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	11	398		brtst 4, __001__ASM_Label_568, __D0EnemyInSight_inline_main
+0	10	401	#line 10 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	11	401		set __D0EnemyInSight_inline_main, 100
+0	10	404	#line 10 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	11	404	#pragma macro 7
+0	11	404		setout __OUT_AC, 2, __D0EnemyInSight_inline_main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4444	427	#line 4444 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	10	427	#line 10 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	11	427	#line 11 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	12	427		set __Wait_7qG2_ms_7qG2_000_inline_EnemyInSight_inline_main, 10
+0	11	430	#line 11 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	8869	430	#line 8869 "NXCDefs.h"
+0	8870	430		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_EnemyInSight_inline_main
+0	8869	433	#line 8869 "NXCDefs.h"
+0	11	433	#line 11 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	14	433	#line 14 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	15	433		jmp __001__ASM_Label_573
+0	14	435	#line 14 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	15	435		set __D0EnemyInSight_inline_main, 100
+0	14	438	#line 14 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	15	438	#pragma macro 7
+0	15	438		setout __constVal2, 2, __D0EnemyInSight_inline_main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4460	461	#line 4460 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	14	461	#line 14 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	15	461	#line 15 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	16	461		set __D0EnemyInSight_inline_main, 100
+0	15	464	#line 15 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	16	464	#pragma macro 10
+0	16	464		neg __OnRev_Tmp, __D0EnemyInSight_inline_main
+0	16	467		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4465	490	#line 4465 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	15	490	#line 15 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	16	490	#line 16 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	17	490		set __Wait_7qG2_ms_7qG2_000_inline_EnemyInSight_inline_main, 10
+0	16	493	#line 16 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	8869	493	#line 8869 "NXCDefs.h"
+0	8870	493		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_EnemyInSight_inline_main
+0	8869	496	#line 8869 "NXCDefs.h"
+0	16	496	#line 16 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	19	496	#line 19 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	57	496	#line 57 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	57	496	#line 57 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	60	496	#line 60 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	61	496		jmp __ASM_Label_620
+0	60	498	#line 60 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	60	498	#line 60 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	61	498		set __D0main, 100
+0	60	501	#line 60 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	61	501	#pragma macro 10
+0	61	501		neg __OnRev_Tmp, __D0main
+0	61	504		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4486	527	#line 4486 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	60	527	#line 60 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	61	527	#line 61 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	62	527		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	61	530	#line 61 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	8869	530	#line 8869 "NXCDefs.h"
+0	8870	530		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	533	#line 8869 "NXCDefs.h"
+0	61	533	#line 61 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	69	533	#line 69 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	70	533		jmp __ASM_Label_616
+0	69	535	#line 69 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+0	70	535		exit -1, -1
+1	5724	0		setin __constVal1, __ResetSensorPort, 5
+1	5726	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5727	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5728	11		subret ____ResetSensorSubroutine_return
+2	6632	0	#pragma macro 27
+2	6632	0		acquire __CLSWMutex3
+2	6632	1		index __LSWriteOptionsVar, __LSWriteOptions, __constVal3
+2	6632	5		or __CLSWArgs3.Port, __constVal3, __LSWriteOptionsVar
+2	6632	9		mov __CLSWArgs3.ReturnLen, __RLSBytesCount3
+2	6632	11		mov __CLSWArgs3.Buffer, __RLSReadBuf3
+2	6632	13		syscall 21, __CLSWArgs3
+2	6632	16		mov __RLSBResult3, __CLSWArgs3.Result
+2	6632	18		release __CLSWMutex3
+2	6632	19	#line 6632 "NXTDefs.h"
+2	6633	19		brtst 5, __RLSBError3, __RLSBResult3
+2	6634	22		set __RLSBIterations3, 60
+2	6636	25	#pragma macro 23
+2	6636	25		acquire __CLSCSMutex3
+2	6636	26		set __CLSCSArgs3.Port, 3
+2	6636	29		syscall 23, __CLSCSArgs3
+2	6636	32		mov __RLSBytesCount3, __CLSCSArgs3.BytesReady
+2	6636	34		mov __RLSBResult3, __CLSCSArgs3.Result
+2	6636	36		release __CLSCSMutex3
+2	6636	37	#line 6636 "NXTDefs.h"
+2	6637	37		sub __RLSBIterations3, __RLSBIterations3, __constVal1
+2	6638	41		brtst 2, __RLSBError3, __RLSBIterations3
+2	6639	44		brtst 0, __RLSBError3, __RLSBResult3
+2	6640	47		brtst 4, __RLSBReadyToRead3, __RLSBResult3
+2	6642	50		wait2 NA, __constVal1
+2	6643	53		jmp __RLSBDoCheckStatus3
+2	6645	55		brtst 4, __RLSBReturn3, __RLSBytesCount3
+2	6646	58		arrinit __RLSReadBuf3, __constVal0, __RLSBytesCount3
+2	6648	62	#pragma macro 25
+2	6648	62		acquire __CLSRMutex3
+2	6648	63		set __CLSRArgs3.Port, 3
+2	6648	66		mov __CLSRArgs3.BufferLen, __RLSBytesCount3
+2	6648	68		syscall 22, __CLSRArgs3
+2	6648	71		mov __RLSReadBuf3, __CLSRArgs3.Buffer
+2	6648	73		mov __RLSBResult3, __CLSRArgs3.Result
+2	6648	75		release __CLSRMutex3
+2	6648	76	#line 6648 "NXTDefs.h"
+2	6649	76		brtst 5, __RLSBError3, __RLSBResult3
+2	6650	79		mov __RLSLastGoodRead3, __RLSReadBuf3
+2	6651	81		jmp __RLSBDone3
+2	6653	83		mov __RLSReadBuf3, __RLSLastGoodRead3
+2	6655	85		arrsize __RLSBytesCount3, __RLSReadBuf3
+2	6657	88		subret ____ReadLSBytes3_return
+3	70	0	#line 70 "C:\Users\ockel\AppData\Local\Temp\temp.nxc"
+3	71	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\ockel\AppData\Local\Temp\temp.nxc
+1	__ResetSensorSubroutine	538	NXTDefs.h
+2	__ReadLSBytes3	551	NXTDefs.h
+3	__initialize_global_data	641	C:\Users\ockel\AppData\Local\Temp\temp.nxc

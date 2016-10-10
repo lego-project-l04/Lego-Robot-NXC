@@ -58,7 +58,7 @@ task main()
              EnemyInSight(SensorUS(IN_4));
              }
 
-             OnRev(OUT_AC, 80);
+             OnRev(OUT_AC, 100);
              Wait(500);
 
 
