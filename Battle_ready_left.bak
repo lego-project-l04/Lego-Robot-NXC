@@ -19,21 +19,21 @@ inline void EnemyInSight(unsigned int enemy){
 }
  inline void lamp(){
          int counter = 1;
- while(counter < 2){
+ while(counter < 3){         //kör 2 gånger = 2 sekunder, när klar counter = 3
   OnFwd(OUT_B, 100);
   Wait(500);
   Off(OUT_B);
   Wait(500);
   counter++;
   }
-  while(counter < 5){
+  while(counter < 6){      //kör 3 gånger = 1.8 sekunder, när klart counter = 6
        OnFwd(OUT_B, 100);
        Wait(300);
        Off(OUT_B);
        Wait(300);
        counter++;
   }
-  while(counter < 12){
+  while(counter < 12){      //kör 7 gånger = 1.2 sekunder, när klart counter = 12
        OnFwd(OUT_B, 100);
        Wait(100);
        Off(OUT_B);
@@ -58,7 +58,7 @@ task main()
              EnemyInSight(SensorUS(IN_4));
              }
 
-             OnRev(OUT_AC, 80);
+             OnRev(OUT_AC, 100);
              Wait(500);
 
 
