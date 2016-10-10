@@ -12,8 +12,8 @@ inline void EnemyInSight(unsigned int enemy){
         Wait(10);
        }
        else{
-         OnFwd(OUT_A,80);
-         OnRev(OUT_C,80);
+         OnFwd(OUT_A,100);
+         OnRev(OUT_C,100);
          Wait(10);
          }
 }
