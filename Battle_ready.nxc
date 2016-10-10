@@ -7,7 +7,7 @@ inline bool StayOn(unsigned int threshold){
        }
 }
 inline void EnemyInSight(unsigned int enemy){
-       if(enemy < 70){
+       if(enemy < 100){
         OnFwd(OUT_AC, 100);
         Wait(10);
        }
